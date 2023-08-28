@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Login to Online SBI</h1>
+    <p>( <span style="color:red">CARE:</span> Username and Password are case sensitive.)</p>
+    <!-- span tag is a inline container used for mark up a part of a text or a perticular text -->
+<form>
+    <p><b>Username*:</b><input type="text" name="usrename"/></p>
+    <p><b>Password*:</b><input type="password" name="password"/></p>
+    <p>Select one of the Captcha option* <input type="radio" value="Image Captcha" name="Image Captcha">Image Captcha
+        <input type="radio" value="Audio Captcha" name="Audio Captcha">Audio Captcha</p>
+        <p>Enter the text as shown in the image*:<input type="text" name="captcha"/></p>
+    <pre>      <button type="button" margin="10px">LOGIN</button>     <button type="reset" margin="10px">RESET</button></pre>
+    <ul>
+        <li>New user? Register here/Activate</li>
+        <li style="color:red">Forgot Username/Login Password</li>
+</ul>
+
+</form>
+</body>
+</html>
