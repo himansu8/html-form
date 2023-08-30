@@ -13,8 +13,9 @@
 <form>
     <p><b>Username*:</b><input type="text" name="usrename"/></p>
     <p><b>Password*:</b><input type="password" name="password"/></p>
-    <p>Select one of the Captcha option* <input type="radio" value="Image Captcha" name="Image Captcha">Image Captcha
-        <input type="radio" value="Audio Captcha" name="Audio Captcha">Audio Captcha</p>
+    <p>Select one of the Captcha option* <input type="radio" id="image" value="Image Captcha" name="Image Captcha">
+        <label for="image">Image Captcha</label>
+        <input type="radio" id="audio" value="Audio Captcha" name="Audio Captcha"><label for="audio">Audio Captcha</label></p>
         <p>Enter the text as shown in the image*:<input type="text" name="captcha"/></p>
     <pre>      <button type="button" margin="10px">LOGIN</button>     <button type="reset" margin="10px">RESET</button></pre>
     <ul>
